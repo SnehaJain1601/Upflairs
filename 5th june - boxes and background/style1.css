@@ -1,0 +1,90 @@
+.task1 {
+    Width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid navy;
+}
+
+.task2 {
+    color: darkblue;
+    size: 16px;
+}
+
+.B1 {
+    background-color: rgb(80, 173, 30);
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+}
+
+.B2 {
+    background-color: rgb(191, 11, 8);
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+}
+
+.B3 {
+    background-color: rgb(183, 186, 13);
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+}
+
+.box2 {
+    Width: 100px;
+    Height: 100px;
+    Border-radius: 50%;
+    Background-color: orange;
+    Border: 2px dashed brown;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to bottom right, blue, purple);
+    border: 1px solid gray;
+}
+
+.head {
+    Width: 100%;
+    Height: 100px;
+    Background-color: teal;
+    color: white;
+    border-bottom: 3px solid darkcyan;
+}
+
+.box3 {
+    Width: 400px;
+    Height: 200px;
+    Background-color: lightgray;
+    Border: 2px dashed black;
+    color: #333;
+}
+
+.card1 {
+    Width: 300px;
+    Height: 350px;
+    Background-image: url(./backgr.jpg);
+    Background-size: cover;
+    Background-repeat: no-repeat;
+    Background-position: centerF;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.foot {
+    Width: 100%;
+    Height: 80px;
+    Background: linear-gradient(to right, #4b6cb7, #182848);
+    Border-top: 3px solid #000;
+    color: white;
+}
+
+.notify {
+    Width: 250px;
+    Height: 100px;
+    Background-color: #fff3cd;
+    Border-left: 5px solid #ffc107;
+     color: #856404;
+}
