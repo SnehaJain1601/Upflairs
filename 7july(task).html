@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: space-evenly;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightgray;
+            
+
+        }
+
+        .card {
+            width: 300px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .picture img{
+           
+           width: 100%;
+           border-radius: 10px;
+            /* margin: 10px; */
+        }
+        /* .img{
+            width: 100%;
+           text-align: center;
+        } */
+
+    
+
+        .heading {
+            color: gray;
+            /* text-align: center; */
+            
+        }
+        .txt{
+            height: 200px;
+            padding: 10px;
+        }
+        .btn{
+            text-align: center;
+            padding: 10px;
+
+        }
+        .btn button{
+            /* text-align: center; */
+            width: 90%;
+            border: none;
+            padding: 5px;
+            background-color: rgba(230, 233, 233, 0.39);
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="picture">
+                <img src="./card1.png" alt="Image1">
+            </div>
+            <div class="heading">
+                <h1>FLEX</h1>
+            </div>
+            <div class="txt">
+                <p>The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available
+                    in its flex container.</p>
+            </div>
+            <div class="btn">
+                <button>button</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="picture">
+                <img src="./card2.png" alt="">
+            </div>
+            <div class="heading">
+                <h1>FLEX GROW</h1>
+            </div>
+            <div class="txt">
+                <p>The flex-grow CSS property sets the flex grow factor, which specifies how much of the flex
+                    container's positive free space, if any, should be assigned to the flex item's main size.</p>
+            </div>
+            <div class="btn">
+                 <button>button</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="picture">
+                <img src="./card2.png" alt="">
+            </div>
+            <div class="heading">
+                <h1>FLEX SHRINK</h1>
+            </div>
+            <div class="txt">
+                <p>The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex
+                    items is larger than the flex container, the flex items can shrink to fit according to their
+                    flex-shrink value. Each flex line's negative free space is distributed between the line's flex items
+                    that have a flex-shrink value greater than 0.</p>
+            </div>
+            <div class="btn">
+                 <button>button</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
