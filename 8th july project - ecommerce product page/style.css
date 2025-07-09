@@ -1,0 +1,147 @@
+.task{
+    
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 10px 40px;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    
+    height: 60px;
+    padding: 10px 40px;
+     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.heading{
+    font-size: 40px;
+    color: green;
+}
+sup{
+    font-size: 20px;
+    background-color: rgb(233, 231, 231);
+}
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+
+}
+.side-bar{
+    width: 40%;
+    margin: 80px;
+    
+}
+h3{
+    font-size: 60px;
+    color: grey;
+}
+.title{
+    font-size: 40px;
+}
+.pic1 img{
+    width:60%;
+    margin: auto;
+     background-color: lightgray;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.container {
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+   
+}
+.pic-con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic img{
+    border-radius: 50%;
+}
+.pic h4 {
+    text-align: center;
+}
+.click{
+    text-align: center;
+
+}
+.click button{
+    text-align: center;
+    margin: auto;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+
+}
+.main3{
+    background-color: lightgray;
+}
+.card{
+    width: 20%;
+    border: 1px solid rgb(189, 182, 182);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.card img{
+    margin: auto;
+}
+.rating{
+    margin: auto;
+    font-size: 40px;
+}
+.card p{
+    padding: 30px;
+}
+.feedback{
+    font-size: 20px;
+    color: grey;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(33, 42, 33);
+    color: white;
+
+}
+.division{
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+
+}
+.division h4{
+    color: green;
+    font-size: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(33, 42, 33) ;
+}
+.last-icon{
+    color: beige;
+    display: flex;
+    gap:40px
+}
