@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 What are the three ways to apply CSS to an HTML document?
 Inline CSS ,Internal CSS,External CSS
@@ -94,3 +95,101 @@ margin-left:auto;
 margin-right:auto;
 
 What is margin collapse? Give an example.
+=======
+
+What are the three ways to apply CSS to an HTML document?
+Inline CSS ,Internal CSS,External CSS
+
+How do you link an external CSS file to an HTML page?
+by writting "link rel=stylesheet href="style.css(name of the CSS external file)"
+
+Where should you place the <style> tag in an HTML file?
+in head tag
+
+What is the difference between inline and internal CSS?
+Inline CSS - Written with the element only
+Internal CSS - Written in html file only in the head tag under the <style> tag in an HTML file
+
+Which CSS implementation has the highest specificity: inline, internal, or external?
+external
+
+
+How do you select an element with a specific ID in CSS?
+by using#(name of the id)
+
+Write a CSS rule to apply red color to all <p> elements.
+p{color:red;}
+
+Write a CSS rule to apply background color to a class named .card.
+.card{
+    background-color:yellow;
+}
+
+What is the difference between .title and #title selectors?
+"." means   we are applying the CSS properties to class
+"#" means we are applying the CSS properties to id
+
+Which selector has more specificity: class or ID?
+id because it is unique
+
+
+Write a CSS rule to give a solid red border of 2px to a div.
+div{
+    border: 2px solid red;
+}
+
+How do you remove the border from an input element?
+input{
+    border:0cap;
+}
+
+Apply a different border to each side of a box using CSS.
+.box{
+    border-top:solid;
+    border-right:dashed;
+    border-bottom:groveed;
+    border-left:double;
+}
+
+What does the shorthand border: 1px dashed blue; mean?
+border-width of 1 px and border-style dashed and border-color will be blue
+
+Can we use border on inline elements? What happens?
+
+
+
+How do you make a square div appear circular using border-radius?
+setting border radius to 50%
+
+What will border-radius: 10px 20px 30px 40px; do?
+set border-top-right-radius:10px ; border-bottom-right-radius:20px;border-bottom-left-radius:30px; ; border-top-left-radius:40px;
+           
+
+Write CSS to round only the top-left and bottom-right corners.
+border-top-left-radius:50%;
+border-bottom-right-radius:50%;
+
+Can border-radius be applied to images?
+yes
+
+What happens if you apply border-radius to an element with an outline?
+
+
+What’s the difference between margin and padding?
+margin-space between the border to the outside
+padding-space between the content and the inner boundary
+
+How do you apply equal margin on all sides?
+margin:30px(any value)
+
+What will margin: 10px 20px; do?
+set left and right margin to 10px
+set top and bottom margin to 20px
+
+How can you center a block element horizontally using margin?
+by setting 
+margin-left:auto;
+margin-right:auto;
+
+What is margin collapse? Give an example.
+>>>>>>> 83314a9c08ddef6dc8841385afb885b8579fb6a2
