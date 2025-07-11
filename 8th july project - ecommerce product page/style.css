@@ -1,5 +1,23 @@
-.task{
-    
+:root {
+    --primary-color: #59ab6e;
+    --dark-color: #212934;
+    --light-gray: #e9eef5;
+    --text-color: #495057;
+    --white-color: #ffffff;
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #495057;
+}
+
+.task {
+
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -8,140 +26,204 @@
     gap: 20px;
     justify-content: space-between;
     font-size: 20px;
-    background-color: black;
-    color: white;
+    background-color: #212934;
+    color: #e9eef5;
 }
-.navbar{
-    
+
+.navbar {
+
     height: 60px;
     padding: 10px 40px;
-     font-size: 20px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9eef5;
 
 }
 
-.heading{
+.heading {
     font-size: 40px;
     color: green;
 }
-sup{
+
+sup {
     font-size: 20px;
     background-color: rgb(233, 231, 231);
 }
+
 .main1 {
     display: flex;
     justify-content: space-around;
-    background-color: lightgray;
+    background-color: #e9eef5;
 
 }
-.side-bar{
-    width: 40%;
+
+.side-bar {
+    width: 50%;
     margin: 80px;
-    
+
 }
-h3{
-    font-size: 60px;
-    color: grey;
+
+h3 {
+    font-size: 3.5em;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+    line-height: 1.2;
+    /* font-size: 60px;
+    color: grey; */
 }
-.title{
-    font-size: 40px;
+
+.title {
+    font-size: 2.8em;
 }
-.pic1 img{
-    width:60%;
-    margin: auto;
-     background-color: lightgray;
+
+.p {
+    font-size: 1.1em;
+    color: var(--text-color);
+    line-height: 1.6;
+    /* font-size: 40px; */
 }
+
+.pic1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    /* width:60%;
+    margin-left: auto;
+     background-color: lightgray; */
+}
+
 .main2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
 
 }
+
+h4 {
+    font-size: 2.2em;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+.text {
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
+
 .container {
+    
     width: 60%;
     font-size: 30px;
     text-align: center;
     margin: auto;
-   
+
 }
-.pic-con{
+
+.pic-con {
     display: flex;
     justify-content: space-evenly;
 }
-.pic img{
+
+.pic img {
     border-radius: 50%;
+    background-color: #dee2e6;
 }
+
 .pic h4 {
     text-align: center;
 }
-.click{
+
+.click {
     text-align: center;
 
 }
-.click button{
+
+.click button {
     text-align: center;
     margin: auto;
-    background-color: green;
+    background-color: #59ab6e;
     border: none;
-    border-radius: 30px;
-    padding: 20px 30px;
+    border-radius: 10px;
+    padding: 10px 25px;
     color: white;
 
 }
-.main3{
+
+.main3 {
+    padding: 100px;
     background-color: lightgray;
 }
-.card{
-    width: 20%;
+
+
+.card {
+    width: 30%;
     border: 1px solid rgb(189, 182, 182);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    background-color: #e9eef5;
 }
-.card img{
+
+.card img {
     margin: auto;
+
 }
-.rating{
-    margin: auto;
-    font-size: 40px;
+
+.rating {
+    padding: 20px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
-.card p{
+
+.card p {
     padding: 30px;
 }
-.feedback{
+
+.feedback {
     font-size: 20px;
     color: grey;
 }
-.box{
+
+.box {
+    
+    background-color: var(--dark-color);
+    color: var(--light-gray);
+    padding: 60px 0 20px;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(33, 42, 33);
-    color: white;
+    background-color:#212934 ;
+    color:#e9eef5 ;
 
 }
-.division{
+
+.division {
     width: 20%;
-    
+
     display: flex;
     flex-direction: column;
-    
+
     padding: 20px;
 
 }
-.division h4{
+
+.division h4 {
     color: green;
     font-size: 20px;
 }
-.last{
+
+.last {
     display: flex;
     justify-content: space-around;
-    background-color:rgb(33, 42, 33) ;
+    background-color: rgb(33, 42, 33);
 }
-.last-icon{
+
+.last-icon {
     color: beige;
     display: flex;
-    gap:40px
+    gap: 40px
 }
