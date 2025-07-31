@@ -1,0 +1,87 @@
+ [
+  {
+    "id": 1,
+    "title": "Finish report",
+    "description": "Monthly financial report",
+    "category": "Work",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "Team meeting",
+    "description": "Discuss Q3 planning with the marketing team",
+    "category": "Work",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Grocery shopping",
+    "description": "Buy vegetables, fruits, and milk",
+    "category": "Personal",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Call mom",
+    "description": "Weekly call to check in and catch up",
+    "category": "Personal",
+    "completed": true
+  },
+  {
+    "id": 5,
+    "title": "Paint landscape",
+    "description": "Finish the watercolor painting started last weekend",
+    "category": "Hobby",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Practice guitar",
+    "description": "Learn new chords and play along with a backing track",
+    "category": "Hobby",
+    "completed": true
+  },
+  
+  {
+    "id": 7,
+    "title": "Submit project proposal",
+    "description": "Finalize and send the proposal for the new client project",
+    "category": "Work",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "title": "Renew car insurance",
+    "description": "Check quotes and renew policy before the due date",
+    "category": "Personal",
+    "completed": true
+  },
+  {
+    "id": 9,
+    "title": "Morning jog",
+    "description": "30-minute jog around the park",
+    "category": "Health",
+    "completed": true
+  },
+  {
+    "id": 10,
+    "title": "Read a book",
+    "description": "Finish reading 'The Midnight Library'",
+    "category": "Hobby",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "title": "Organize files",
+    "description": "Sort and archive old work documents",
+    "category": "Work",
+    "completed": true
+  },
+  {
+    "id": 12,
+    "title": "Meal prep",
+    "description": "Prepare healthy meals for the upcoming week",
+    "category": "Health",
+    "completed": false
+  }
+]
